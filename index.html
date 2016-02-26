@@ -1,8 +1,33 @@
 ---
 layout: default
-title: Queena's Page - Powered by Jekyll
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Queena Wang @Hangzhou!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<!-- 页面第1/2部分：侧边栏 -->
+<aside>
+	<div class="title">
+		<h1><a href="">爱技术，爱分享</a></h1>
+		<h2><a href="">我叫“王小筷”</a></h2>
+		<p>Powered by <a href="https://jekyllrb.com/docs/home/" target="blank">Jekyll</a></p>
+		<p style="color:red;font-weight:bold">纪念离职一百天…</p>
+		</p>
+		<p><span>访问：99次</span>
+		</p>
+	</div>
+	<input type="button" class="post-button" value="提笔写文章">	
+</aside>	
+
+<!-- 页面第2/2部分：主要内容 -->
+<div class="main">
+	<nav>
+	    <ul class="nav nav-tabs">
+	        <li role="presentation" class="active"><a role="tab" href="#blog-pane" aria-controls="#blog-pane" data-toggle="tab">Blog</a></li>
+	        <li role="presentation"><a role="tab" href="#works-pane" aria-controls="#works-pane"  data-toggle="tab">Works</a></li>
+	        <li role="presentation"><a role="tab" href="#cv-pane" aria-controls="#cv-pane"  data-toggle="tab">CV</a></li>
+	    </ul>
+	    
+	    <div class="tab-content">
+	        <div role="tabpanel" class="tab-pane active" id="blog-pane">{% include blog-pane.html %}</div>
+	        <div role="tabpanel" class="tab-pane" id="works-pane">{% include works-pane.html %}</div>
+	        <div role="tabpanel" class="tab-pane" id="cv-pane">{% include cv-pane.html %}</div>
+	    </div>
+	</nav>
+</div>	<!-- end of main -->
