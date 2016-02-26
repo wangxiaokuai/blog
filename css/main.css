@@ -1,43 +1,283 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+/* 整体统一的风格 */
+
+* {
+	padding:0;
+	margin:0;
+	border:0;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+body{
+	font-family: 'Microsoft YaHei';
+	letter-spacing: 1px;
 }
 
-ul.posts li {
-    list-style: none;
+a{
+	text-decoration: none;
+	color:#555;	
+}
+a:hover{
+	color:#333;
+}
+
+.page-container  h1 {
+	font-size:24px;
+	margin:0px;
+}
+
+.page-container h2 {
+	font-size:22px;
+	margin:0px;
+}
+h1,h2{
+	
+		font-family: 'Microsoft YaHei';
+	letter-spacing: 1px;
+}
+
+aside .title{
+	font-family: 'Microsoft YaHei';
+	letter-spacing: 1px;	
+}
+
+h2{
+	line-height:2.5em;
+	letter-spacing: 0px;
+}
+
+.billboard{
+	padding: 50px 100px;
+	margin:auto;
+	text-align: center;
+	color:#1661BE;
+	min-height: 600px;
+}
+
+.nav-active{
+	color:#000;
+	border-color: #000;
+}
+
+
+/*用于清除浮动的样式*/
+.clearfix:after{
+	content:" ";
+	display: block;
+	clear:both;
+	height:0;
+}
+
+
+
+
+
+/*** 第1/2张网页 index.html ***/
+
+.page-container{
+	background-color: #ccc;
+	min-height: 800px;
+}
+
+/* 侧边栏部分的样式 */
+
+aside {
+	width:30%;
+	float:left;
+	min-height: 700px;
+	background-attachment: fixed; 
+	background-image: url(../img/wanghuan.jpg);
+	background-position: 0px -100px;	
+	background-repeat: no-repeat;
+}
+
+.title {
+	position:fixed;
+	bottom: 40px;
+	padding:10px 5px;
+
+	background-color: rgba(0,0,0,0.4);
+	color:white;	
+}
+
+.title h1{
+	margin:5px;
+}
+
+.title h2{
+	margin: 5px 15px;
+	font-size: 20px;
+}
+
+.title p{
+	margin:15px 0px 0px 5px;
+}
+
+.title a {
+	color:#FFF;
+}
+
+.title a:hover{
+	text-decoration: underline;
+
+}
+
+.title p a{
+	color:#0889FF;
+	text-decoration: underline;
+}
+
+.post-button {
+	position:fixed;
+	bottom:60px;
+	left:210px;
+	padding: 10px 15px;
+	border-radius: 4px;
+	background-color: #01B401;
+	
+	color:white;	
+	font-family: inherit;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.post-button:hover{
+	cursor: pointer;
+}
+
+/* 主体部分的样式 */
+
+.main {
+	width:70%;
+	float:right;
+	background-color: #fff;
+}
+
+
+
+.nav-tabs{
+	width:96%;
+	border-bottom: solid 3px #ccc;
+	margin:auto;
+	margin-top:20px;	
+	letter-spacing: 3px;
+}
+
+.nav-tabs li{
+	display: inline-block;		
+	min-width: 80px;
+	border:0px;
+	border-bottom:solid 3px #ccc;
+	margin-bottom: -3px;
+	list-style: none;
+}
+
+.nav-tabs .active{
+	border-color: #000;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	border-color:transparent;
+	color:#000;	
+}
+
+.nav-tabs>li>a:hover{
+	color:#000;
+	background-color: #fff;
+	border-color:transparent;
+}
+
+
+.nav-tabs a{
+
+	display: block;
+	width:100%;
+	text-align: center;
+	line-height: 2em;
+	color:#555;
+}
+
+
+nav ul li:hover{
+	border-color:#000;
+}
+
+.articale-list{
+
+}
+
+.abstract {
+	margin:20px 40px;
+	padding:10px 5px;
+	border: solid 1px #aaa;
+	border-radius: 4px;
+	position:relative;
+}
+
+.abstract-text{
+	float:left;
+	margin-left:15px;
+
+}
+
+.abstract-text-inner{
+	margin-right:100px;
+}
+
+.abstract-text p{
+	line-height: 24px;
+	font-size:14px;
+	color:#999;
+}
+
+.abstract-text p span{
+	padding:5px;
+}
+
+.abstract-thumbnail{
+	float:right;	
+	margin:7px;
+	margin-left:-100%;	
+	width:70px;
+	height:70px;
+	overflow: hidden;	
+	border-radius: 4px;	
+}
+
+.abstract-thumbnail img{
+	width:70px;
+}
+
+
+
+
+
+/*** 第2/2张网页 post.html ***/
+.post-main{
+	max-width:800px;
+	padding:20px 30px 60px 20px;
+	margin:auto;
+	background-color: #fff;
+	color:#333;
+	position:relative;
+	top:20px;
+}
+
+.post-main h1{
+	padding:20px 0px;
+}
+.post-title{
+	padding-left:30px;
+	padding-bottom: 20px;
+}
+
+.post-title > div >span{
+	margin:5px 10px;
+	color:#777;
+	font-size: 14px;
+}
+
+
+/* 点赞 */
+.favor:hover{
+	cursor: pointer;
+	color:red;
 }

@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
-</div>
+<div class="post-main">
+	<div class="post-title">
+		<h1>{{page.title}}</h1>
+		<div class="info">
+			<span>99 阅读</span>
+			<span >18 
+				<span class="favor">赞</span>
+			</span>
+			<span>Create at {{page.date}}</span>
+		</div>
+	</div>
+	<div>
+		{{content}}
+	</div>
+</div>	
