@@ -72,23 +72,40 @@ h2{
 
 /*** 第1/2张网页 index.html ***/
 
+/* 整体布局 */
 .page-container{
-	background-color: #ccc;
-	min-height: 800px;
+	/*background-color: #ccc;*/
+	/*min-height: 800px;*/
 }
 
-/* 侧边栏部分的样式 */
-
 aside {
-	width:30%;
-	float:left;
-	min-height: 700px;
+	width:375px;
+	position: fixed;
+	min-height: 800px;
 	background-attachment: fixed; 
 	background-image: url(../img/wanghuan.jpg);
 	background-position: 0px -100px;	
 	background-repeat: no-repeat;
 }
 
+.main {
+	margin-left:375px;
+	background-color: #fff;	
+}
+
+@media screen and (max-width: 900px) {
+	aside{display:none;
+	}
+
+	.main{
+		margin-left:0px;
+	}
+}
+
+
+
+
+/* aside 侧边栏部分的样式 */
 .title {
 	position:fixed;
 	bottom: 40px;
@@ -143,21 +160,12 @@ aside {
 	cursor: pointer;
 }
 
-/* 主体部分的样式 */
-
-.main {
-	width:70%;
-	float:right;
-	background-color: #fff;
-}
-
-
-
+/* .main主体部分的样式 */
 .nav-tabs{
 	width:96%;
 	border-bottom: solid 3px #ccc;
 	margin:auto;
-	margin-top:20px;	
+	padding-top:20px;	
 	letter-spacing: 3px;
 }
 
@@ -251,6 +259,10 @@ nav ul li:hover{
 
 
 /*** 第2/2张网页 post.html ***/
+.post-container{
+	background-color: #ccc;
+	min-height:800px;
+}
 .post-main{
 	max-width:800px;
 	padding:20px 30px 60px 20px;

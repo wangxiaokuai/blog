@@ -17,17 +17,17 @@ layout: default
 
 <!-- 页面第2/2部分：主要内容 -->
 <div class="main">
-	<nav>
-	    <ul class="nav nav-tabs">
-	        <li role="presentation" class="active"><a role="tab" href="#blog-pane" aria-controls="#blog-pane" data-toggle="tab">Blog</a></li>
-	        <li role="presentation"><a role="tab" href="#works-pane" aria-controls="#works-pane"  data-toggle="tab">Works</a></li>
-	        <li role="presentation"><a role="tab" href="#cv-pane" aria-controls="#cv-pane"  data-toggle="tab">CV</a></li>
-	    </ul>
-	    
-	    <div class="tab-content">
-	        <div role="tabpanel" class="tab-pane active" id="blog-pane">{% include blog-pane.html %}</div>
-	        <div role="tabpanel" class="tab-pane" id="works-pane">{% include works-pane.html %}</div>
-	        <div role="tabpanel" class="tab-pane" id="cv-pane">{% include cv-pane.html %}</div>
-	    </div>
-	</nav>
-</div>	<!-- end of main -->
+    <nav>
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a role="tab" href="#blog-pane" aria-controls="#blog-pane" data-toggle="tab">Blog</a></li>
+            <li role="presentation"><a role="tab" href="#works-pane" aria-controls="#works-pane" data-toggle="tab">Works</a></li>
+            <li role="presentation"><a role="tab" href="#cv-pane" aria-controls="#cv-pane" data-toggle="tab">CV</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="blog-pane">{% include blog-pane.html %}</div>
+            <div role="tabpanel" class="tab-pane" id="works-pane">{% include works-pane.html %}</div>
+            <div role="tabpanel" class="tab-pane" id="cv-pane">{% include cv-pane.html %}</div>
+        </div>
+    </nav>
+</div>
+<!-- end of main -->
