@@ -263,31 +263,6 @@ nav ul li:hover{
 	width:70px;
 }
 
-@media screen and (max-width: 480px){
-	.abstract {
-		margin:12px 5%;
-	}
-
-
-	.abstract-text h2{
-		line-height: 1.5em;
-		font-size: 18px;
-	}
-
-	.abstract-text p span{
-		padding:2px;
-	}
-
-	.abstract-thumbnail{
-		margin:3px 3px 3px -100%;
-	}
-
-	.abstract-text p{
-		line-height: 24px;
-		font-size:12px;
-	}
-
-} 
 
 
 /*** 第2/2张网页 post.html ***/
@@ -325,3 +300,33 @@ nav ul li:hover{
 	cursor: pointer;
 	color:red;
 }
+
+@media screen and (max-width: 480px){
+	.abstract {
+		margin:12px 5%;
+	}
+
+
+	.abstract-text h2{
+		line-height: 1.5em;
+		font-size: 18px;
+	}
+
+	.abstract-text p span{
+		padding:2px;
+	}
+
+	.abstract-thumbnail{
+		margin:3px 3px 3px -100%;
+	}
+
+	.abstract-text p{
+		line-height: 24px;
+		font-size:12px;
+	}
+
+	.post-main{
+		top:0px;
+	}
+
+} 
