@@ -213,7 +213,7 @@ nav ul li:hover{
 }
 
 .abstract {
-	margin:20px 40px;
+	margin:20px 5%;
 	padding:10px 5px;
 	border: solid 1px #aaa;
 	border-radius: 4px;
@@ -231,7 +231,7 @@ nav ul li:hover{
 }
 
 .abstract-text p{
-	line-height: 24px;
+	margin: 10px 0px 5px 0px;
 	font-size:14px;
 	color:#999;
 }
@@ -239,6 +239,14 @@ nav ul li:hover{
 .abstract-text p span{
 	padding:5px;
 }
+
+.abstract-text h2{
+	line-height:1.5em;
+	letter-spacing: 0px;
+	 margin:5px 0px;
+}
+
+
 
 .abstract-thumbnail{
 	float:right;	
@@ -254,8 +262,31 @@ nav ul li:hover{
 	width:70px;
 }
 
+@media screen and (max-width: 480px){
+	.abstract {
+		margin:12px 5%;
+	}
 
 
+	.abstract-text h2{
+		line-height: 1.5em;
+		font-size: 18px;
+	}
+
+	.abstract-text p span{
+		padding:3px;
+	}
+
+	.abstract-thumbnail{
+		margin:3px 3px 3px -100%;
+	}
+
+	.abstract-text p{
+		line-height: 24px;
+		font-size:12px;
+	}
+
+} 
 
 
 /*** 第2/2张网页 post.html ***/
