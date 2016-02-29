@@ -45,11 +45,12 @@ h2{
 }
 
 .billboard{
-	padding: 50px 100px;
+	padding: 50px 15%;
 	margin:auto;
 	text-align: center;
 	color:#1661BE;
-	min-height: 600px;
+	min-height: 200px;
+	line-height: 36px;
 }
 
 .nav-active{
