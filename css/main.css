@@ -337,16 +337,35 @@ nav ul li:hover{
 
 } 
 
+/* 定义文章内容的样式 */
 .post-content p{
 	font-size: 16px;
 	line-height: 1.5em;
 	letter-spacing: 1px;
-	margin: 0px 0px 2em;
+	margin: 0px 0px 1em;
+	
+}
+
+.post-content p strong{
+	color:#333;
 }
 
 .post-content h2{
 	border-bottom:solid 1px #999;
 	margin-bottom: 1em;
+}
+
+.post-content h3{
+	font-family: inherit;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.post-content h4{
+	font-family: inherit;
+	line-height: 1.25em;
+	font-size: 16px;
 }
 
 .post-content li p{
@@ -355,4 +374,11 @@ nav ul li:hover{
 
 .post-content li{
 	list-style-position: inside;
+	margin-left:2em;
+}
+
+.post-content em{
+	font-family: "KaiTi";
+	font-style: normal;
+	letter-spacing: normal;
 }
