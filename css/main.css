@@ -350,6 +350,11 @@ nav ul li:hover{
 	color:#333;
 }
 
+.post-container h1{
+	line-height: 1.5em;
+}
+
+
 .post-content h2{
 	border-bottom:solid 2px #428bca;
 	margin-bottom: 1em;
