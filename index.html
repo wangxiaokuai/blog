@@ -6,8 +6,8 @@ layout: default
 	<div class="title">
 		<h1><a href="">爱技术，爱分享</a></h1>
 		<h2><a href="">我叫“王小筷”</a></h2>
+        
 		<p>Powered by <a href="https://jekyllrb.com/docs/home/" target="blank">Jekyll</a></p>
-		<p style="color:red;font-weight:bold">纪念离职一百天…</p>
 		</p>
 		<p><span>访问：99次</span>
 		</p>
@@ -21,11 +21,16 @@ layout: default
         <ul class="nav nav-tabs">
             <li role="presentation" class="active"><a role="tab" href="#blog-pane" aria-controls="#blog-pane" data-toggle="tab">Blog</a></li>
             <li role="presentation"><a role="tab" href="#works-pane" aria-controls="#works-pane" data-toggle="tab">Works</a></li>
+            <li role="presentation"><a role="tab" href="#wiki-pane" aria-controls="#wiki-pane" data-toggle="tab">Wiki</a></li>
             <li role="presentation"><a role="tab" href="#cv-pane" aria-controls="#cv-pane" data-toggle="tab">CV</a></li>
         </ul>
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="blog-pane">{% include blog-pane.html %}</div>
+
             <div role="tabpanel" class="tab-pane" id="works-pane">{% include works-pane.html %}</div>
+
+            <div role="tabpanel" class="tab-pane" id="wiki-pane">{% include wiki-pane.html %}</div>
+
             <div role="tabpanel" class="tab-pane" id="cv-pane">{% include cv-pane.html %}</div>
         </div>
     </nav>
