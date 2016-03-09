@@ -5,17 +5,21 @@ layout: default
 	<div class="post-main">
 		<div class="post-title">
 			<h1>{{page.title}}</h1>
-			<div class="info">
-				<span>99 阅读</span>
-				<span >18 
-					<span class="favor">赞</span>
-				</span>
+			<div class="info">				
 				<span>{{page.date|date_to_string}}</span>
+				<span><a target="_blank" href="http://wangxiaokuai.github.io">筷子</a></span>
 			</div>
 		</div>
 
 		<div class="post-content">
 			{{content}}
+
+		</div>
+		<div class="post-footer">
+			<span>99 阅读</span>
+			<span >18 
+				<span class="favor">赞</span>
+			</span>
 		</div>
 	</div>	
 

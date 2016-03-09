@@ -332,7 +332,7 @@ nav ul li:hover{
 	}
 
 	.post-main{
-		top:0px;
+		padding:1em 1em 3em;
 	}
 
 } 
@@ -386,4 +386,13 @@ nav ul li:hover{
 .post-content .each-day{
 	color:#428bca;
 	font-family:"Comic Sans MS", cursive, sans-serif
+}
+
+.post-footer{
+	text-align: right;
+}
+
+.post-footer > span{
+	color:#999;
+	padding: 10px;
 }
