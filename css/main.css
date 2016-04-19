@@ -30,7 +30,7 @@ body{
 }
 h1,h2{
 	
-		font-family: 'Microsoft YaHei';
+	font-family: 'Microsoft YaHei';
 	letter-spacing: 1px;
 }
 
@@ -119,9 +119,12 @@ aside {
 	position:fixed;
 	bottom: 40px;
 	padding:10px 5px;
+	padding-left: 50px;
 
 	background-color: rgba(0,0,0,0.4);
 	color:white;	
+	width:375px;
+
 }
 
 .title h1{
@@ -352,12 +355,14 @@ nav ul li:hover{
 
 .post-container h1{
 	line-height: 1.5em;
+
 }
 
 
 .post-content h2{
 	border-bottom:solid 2px #428bca;
 	margin-bottom: 1em;
+	letter-spacing: 2px;
 }
 
 .post-content h3{
@@ -378,7 +383,10 @@ nav ul li:hover{
 }
 
 .post-content li{
-	list-style-position: inside;
+	font-family: 'Microsoft YaHei';
+	font-size: 16px;
+	line-height: 1.5em;
+	margin:1em 0em;
 	margin-left:2em;
 }
 

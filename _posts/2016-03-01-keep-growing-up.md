@@ -1,10 +1,11 @@
 ---
-title: "成长，是永恒的主题"
+title: "生活 | 成长，是永恒的主题"
 layout: post
 date: 2016-03-01
+thumbnail: "img/thumbnail/grow-up.jpg"
 ---
 
-## 艰难人生路上，成长是一种信仰
+## 艰难人生路上，成长是一种信仰？？
 
 ## 成长，是一种追求
 

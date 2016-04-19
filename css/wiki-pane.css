@@ -1,0 +1,35 @@
+.wiki-pane {
+
+}
+
+.note-books {
+	margin:20px 50px 0px;
+}
+
+.note-books li{
+	border: 1px solid #4282CA;
+	border-radius: 4px;
+	list-style-type: none;
+	padding:10px 15px;
+	margin:10px 0px;
+	font-size: 14px;
+	color:#ccc;
+
+	background-color: #5B1688;
+}
+
+.note-books li a{
+	display: block;
+	text-decoration: none;
+
+}
+
+.note-books h2{
+	font-size: 20px;
+	color:#fff;
+}
+
+.note-books p{
+	color:rgba(255,255,255,0.6);
+}
+
