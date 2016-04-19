@@ -20,20 +20,20 @@ title: "Xiaokuai's Blog"
 <div class="main">
     <nav>
         <ul class="nav nav-tabs">
-            <li role="presentation"><a role="tab" href="#blog-pane" aria-controls="#blog-pane" data-toggle="tab">Blog</a></li>
+            <li role="presentation"  class="active"><a role="tab" href="#blog-pane" aria-controls="#blog-pane" data-toggle="tab">Blog</a></li>
             
-            <li role="presentation" class="active"><a role="tab" href="#wiki-pane" aria-controls="#wiki-pane" data-toggle="tab">Wiki</a></li>
+            <li role="presentation"><a role="tab" href="#wiki-pane" aria-controls="#wiki-pane" data-toggle="tab">Wiki</a></li>
 
             <li role="presentation"><a role="tab" href="#works-pane" aria-controls="#works-pane" data-toggle="tab">Works</a></li>
             
             <!-- <li role="presentation"><a role="tab" href="#cv-pane" aria-controls="#cv-pane" data-toggle="tab">CV</a></li> -->
         </ul>
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane " id="blog-pane">{% include blog-pane.html %}</div>
+            <div role="tabpanel" class="tab-pane active" id="blog-pane">{% include blog-pane.html %}</div>
 
             <div role="tabpanel" class="tab-pane" id="works-pane">{% include works-pane.html %}</div>
 
-            <div role="tabpanel" class="tab-pane active" id="wiki-pane">{% include wiki-pane.html %}</div>
+            <div role="tabpanel" class="tab-pane" id="wiki-pane">{% include wiki-pane.html %}</div>
 
             <div role="tabpanel" class="tab-pane" id="cv-pane">{% include cv-pane.html %}</div>
         </div>
