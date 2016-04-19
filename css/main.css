@@ -158,7 +158,7 @@ aside {
 	position:fixed;
 	bottom:60px;
 	left:210px;
-	padding: 10px 15px;
+	
 	border-radius: 4px;
 	background-color: #01B401;
 	
@@ -167,6 +167,17 @@ aside {
 	font-size: 20px;
 	letter-spacing: 1px;
 }
+.post-button a{
+	padding: 10px 15px;
+	color:#fff;
+	text-decoration: none;
+	display: block;
+}
+
+.post-button a:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+
 
 .post-button:hover{
 	cursor: pointer;

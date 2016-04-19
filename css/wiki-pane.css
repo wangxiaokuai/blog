@@ -10,18 +10,23 @@
 	border: 1px solid #4282CA;
 	border-radius: 4px;
 	list-style-type: none;
-	padding:10px 15px;
+	
 	margin:10px 0px;
 	font-size: 14px;
 	color:#ccc;
 
-	background-color: #5B1688;
+	background-color: #7d17e3;
 }
 
 .note-books li a{
 	display: block;
+	padding:10px 15px;
 	text-decoration: none;
 
+}
+
+.note-books li a:hover{
+	background-color: rgba(0,0,0,0.2);
 }
 
 .note-books h2{
