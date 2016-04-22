@@ -5,8 +5,10 @@ layout: default
 	<div class="post-main">
 		<div class="post-title">
 			<h1>{{page.title}}</h1>
+			<div id="page_id" style="display:block;">{{page.id}}</div>
 			<div class="info">				
 				<span>{{page.date|date_to_string}}</span>
+				<span>阅读：<span id="read_times"></span></span>
 				<span><a target="_blank" href="http://wangxiaokuai.github.io">筷子</a></span>
 			</div>
 		</div>
@@ -23,4 +25,5 @@ layout: default
 		</div>
 	</div>	
 
+	<script src="/script/post.js"></script>
 </div>
