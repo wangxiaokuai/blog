@@ -10,7 +10,7 @@ thumbnail: "img/thumbnail/how-to-use-git.jpg"
 > 本文参考文档：[Pro Git（中文版）](http://git.oschina.net/progit/index.html)。文章是老外写的，分析得相当的全面和透彻。
 
 
-![Picture from unsplash](http://upload-images.jianshu.io/upload_images/1859030-73d966ff89df5767.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image-in-post](/img/20160424235352.jpg)
 
 * 版本控制
 版本控制就两个目的：第一，保存历史版本；第二，多人协作。
