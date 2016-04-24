@@ -1,0 +1,28 @@
+---
+title: "成长，是一种信仰"
+layout: post
+date: 2016-04-24
+thumbnail: "img/thumbnail/grow-up.jpg"
+---
+
+
+##### （一）渔奴和芭蕾舞者
+当时我们直到入职的前一天，都不知道自己在什么部门、要做哪个产品、甚至在哪个BG。
+
+而之后的三年更是换了三个完全不同的项目，做了无数件毫不相干的事。
+
+有些人就喜欢在你毫不知情的情况下、分配事情，我到现在也说不清，这是『说你行，你就行』的魄力、适者生存的法则，还是『鱼奴』的生活方式。。。
+
+就像『鱼奴』和芭蕾舞者，都是在忍受难以想象的束缚。区别不在表面，而在心是不是自由的。
+
+![2016-4-23 Hunting for a job](http://upload-images.jianshu.io/upload_images/1859030-5825d3a3a27dcf5e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+#####（二）人是不是 越长大越难开心？
+<br>
+原来、听首歌心情就好起来了，烦恼都忘了！或者看个喜剧片、看看别人的笑话
+
+后来才发现、人不可能从同一件事情上一直获得快乐，尤其是和自己没屁关系的事
+
+所以以后不快乐了无聊了，不是去找快乐，而是去挑战更难的事
+
+![2016-04-24 Hunting for a job](http://upload-images.jianshu.io/upload_images/1859030-e83fd82cb1a3934b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
