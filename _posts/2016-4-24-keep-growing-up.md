@@ -17,7 +17,9 @@ thumbnail: "img/thumbnail/grow-up.jpg"
 
 ![image-in-post](/img/1859030-5825d3a3a27dcf5e.png)
 
-#####（二）人是不是 越长大越难开心？
+
+##### （二）人是不是 越长大越难开心？
+
 <br>
 原来、听首歌心情就好起来了，烦恼都忘了！或者看个喜剧片、看看别人的笑话
 
