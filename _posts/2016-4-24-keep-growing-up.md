@@ -15,7 +15,7 @@ thumbnail: "img/thumbnail/grow-up.jpg"
 
 就像『鱼奴』和芭蕾舞者，都是在忍受难以想象的束缚。区别不在表面，而在心是不是自由的。
 
-![image-in-post](/img/1859030-5825d3a3a27dcf5e.png)
+![image-in-post](/img/keep-growing-up/1859030-5825d3a3a27dcf5e.png)
 
 
 ##### （二）人是不是 越长大越难开心？
@@ -27,4 +27,4 @@ thumbnail: "img/thumbnail/grow-up.jpg"
 
 所以以后不快乐了无聊了，不是去找快乐，而是去挑战更难的事
 
-![image-in-post](/img/photo-1445633743309-b60418bedbf2.jpg)
+![image-in-post](/img/keep-growing-up/photo-1445633743309-b60418bedbf2.jpg)
