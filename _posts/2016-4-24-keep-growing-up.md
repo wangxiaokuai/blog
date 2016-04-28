@@ -7,6 +7,7 @@ thumbnail: "img/thumbnail/grow-up.jpg"
 
 
 ##### （一）渔奴和芭蕾舞者
+
 当时我们直到入职的前一天，都不知道自己在什么部门、要做哪个产品、甚至在哪个BG。
 
 而之后的三年更是换了三个完全不同的项目，做了无数件毫不相干的事。
@@ -16,6 +17,7 @@ thumbnail: "img/thumbnail/grow-up.jpg"
 就像『鱼奴』和芭蕾舞者，都是在忍受难以想象的束缚。区别不在表面，而在心是不是自由的。
 
 ![image-in-post](/img/keep-growing-up/1859030-5825d3a3a27dcf5e.png)
+
 
 
 ##### （二）人是不是 越长大越难开心？
